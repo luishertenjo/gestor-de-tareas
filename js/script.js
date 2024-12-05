@@ -4,6 +4,9 @@ const taskInput = document.getElementById('taskInput');
 const addTaskButton = document.querySelector('#addTaskButton');
 const taskList = document.querySelector('#taskList');
 
+
+
+
 // Agregar tarea
 function addTask() {
     const taskText = taskInput.value.trim();
